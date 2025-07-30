@@ -17,11 +17,13 @@
 فایل های برنامه:
 کد اصلی برنامه -> main.c
 کتابخانه ی روتاری -> Rotary.h
-کتابخانه ی LCD -> 
-Digital Clock
+کتابخانه ی LCD -> CODENIC_LCD.c & CODENIC_LCD.h
+فایل های .h باید در پوشه ی inc و فایل های .c باید در پوشه ی src قرار گیرند.
 
-In this project, the STM32F103C8T6 microcontroller with ARM architecture is used.
-To display information to the user, a 16*2 LCD is used and it is connected to the microcontroller using an I2C LCD driver.
+#Digital Clock
+
+This project uses an STM32F103C8T6 microcontroller with ARM architecture.
+To display information to the user, a 16*2 LCD is used and is connected to the microcontroller using an I2C LCD driver.
 
 The functionality of this device:
 1) Display the time
@@ -29,7 +31,14 @@ The functionality of this device:
 3) Display the days of the week
 4) Measure and display the temperature
 
-Two single-bridge switches are provided to turn the circuit on and off, and another to start or stop the digital clock's second counter.
+Two single-pole switches are provided to turn the circuit power on and off, and another to start or stop the digital clock's second counter.
+
 In addition, a single rotary switch is used to access the clock settings.
 
 Its program is written in C language and its PCB is designed in Altium designer software.
+
+Program files:
+Main program code -> main.c
+Rotary library -> Rotary.h
+LCD library -> CODENIC_LCD.c & CODENIC_LCD.h
+.h files should be placed in the inc folder and .c files should be placed in the src folder.
