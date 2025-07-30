@@ -13,6 +13,11 @@
 علاوه بر آن از تک روتاری برای دسترسی به تنظیمات ساعت استفاده شده است.
 
 برنامه ی آن با زبان C نوشته شده و PCB آن در نرم افزار Altium desiner طراحی شده است.
+
+فایل های برنامه:
+کد اصلی برنامه -> main.c
+کتابخانه ی روتاری -> Rotary.h
+کتابخانه ی LCD -> 
 Digital Clock
 
 In this project, the STM32F103C8T6 microcontroller with ARM architecture is used.
